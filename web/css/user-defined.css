@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+.mypanel{
+	margin:5px;/*  设置面板的外边距*/
+	/* padding: 20px; */ /*  设置面板的内边距*/
+	border-radius: 25px; /* 设置面板圆角 */
+    /* border: 1px solid RGB(222,122,56); */ /*面板的边框  */
+    /* overflow:auto;  */
+    height: 460px;/* 这个是面板的高度，不要改动  */
+    /* color:RGB(147,99,211); *//* 设置面板里的字的颜色 */
+    /* font-weight:100;设置字体粗细 */
+    /* font-size:20px; 设置字的大小 */
+}
+.mypanel_left{ /*文字信息板块  */
+	margin-top: 30px;
+	margin-left: 40px ;
+	float:left;
+	/* border: 1px solid RGB(148,148,148); */
+	width: 500px;
+    height: 420px;
+    font-weight: 800;
+    font-family:myFirstFont;
+}
+.mypanel_right{/* 右边照片和操作板块*/
+	margin-top: 30px;
+	margin-right: 95px;
+	/* border: 1px solid RGB(148,148,148); */
+	float:right;
+	width: 300px;
+	height: 420px;
+	verticle-align:middle;
+}
+.left_item{ /* 左边条目 */
+    border-radius: 20px;
+	border: 1px solid RGB(148,148,148);
+	margin: 20px auto;
+	width: 80%;
+	height: 40px;
+	verticle-align:middle;
+	background: white;
+}
+.left_item .left{/*左边条目的左部分 */
+	verticle-align:middle;
+	margin-left:30px;
+	margin-top:6px;
+	width: 100px;
+    /* border: 1px solid RGB(148,148,148); */
+	float:left;
+	font-size: 15px;
+}
+.left_item .right{
+	verticle-align:middle;
+	margin-right:30px;
+	margin-top:6px;
+	width: 100px;
+	/* border: 1px solid RGB(148,148,148); */
+	float: right;
+	font-size: 15px;
+    font-weight: 300;
+    font-family:myFirstFont;
+}
+.photo{
+	margin: 20px auto;
+	/* border: 1px solid RGB(148,148,148); */
+	height: 40%;
+	width: 60%;
+}
+.button-planel{
+	margin: 20px auto;
+	/* border: 1px solid RGB(148,148,148); */
+	height: 40%;
+	width: 80%;
+} 
+.button{
+	border-radius: 25px;
+	margin: 15px 22px;
+	height: 27%;
+	width: 80%;
+	color: white;
+	font-size: 20px;
+	background: black;
+}
+img {
+	margin: 20px 14px;
+	width: 75%;
+	height: 80%;
+}
